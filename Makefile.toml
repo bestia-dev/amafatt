@@ -45,7 +45,7 @@ skip_core_tasks = true
 [tasks.build-dev]
 clear = true
 private = true
-description = "build wasm in dev mode"
+description = "build in dev/debug mode"
 command = "wasm-pack"
 args = ["build", "--target", "web","--dev"]
 
@@ -59,7 +59,7 @@ args = ["build", "--target", "web","--dev"]
     # and then another time I have to escape the backslash. So 4 backslash for one backslash.
     script = [
         "rsync -avz --delete-after /home/luciano/rustprojects/amafatt/webfolder/ /home/luciano/rustprojects/googlecloud/var/www/html/amafatt/",
-        "rsync -e ssh -avz --delete-after /home/luciano/rustprojects/googlecloud/var/www/html/amafatt/ luciano_bestia@34.87.17.103:/var/www/html/amafatt/",
+        "rsync -e ssh -avz --delete-after /home/luciano/rustprojects/googlecloud/var/www/html/amafatt/ luciano_bestia@bestia.dev:/var/www/html/amafatt/",
     ]
 
     [tasks.sshadd]
@@ -87,7 +87,7 @@ script = [
 clear = true
 private = true
 description = "copy the content of readme.md into *.rs comments (for the docs)"
-script= ["../utils_linux/lmake_readme"]
+script= ["lmake_readme"]
 
 [tasks.cargo-doc]
 clear = true
@@ -108,7 +108,7 @@ script = [
 clear = true
 private = true
 description = "in cargo.toml change version to today date"
-script= ["../utils_linux/lmake_version_from_date"]
+script= ["lmake_version_from_date"]
 
 [tasks.build_release]
 description = "build for release"

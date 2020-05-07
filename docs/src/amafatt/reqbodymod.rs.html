@@ -326,7 +326,7 @@
 
 <span class="doccomment">///create reqbody for info</span>
 <span class="kw">pub</span> <span class="kw">fn</span> <span class="ident">create_reqbody_info</span>(<span class="ident">rrc</span>: <span class="kw-2">&amp;</span><span class="kw-2">mut</span> <span class="ident">RootRenderingComponent</span>) {
-  <span class="ident">rrc</span>.<span class="ident">url</span> <span class="op">=</span> <span class="string">&quot;http://34.87.17.103/v1/richiesta/info&quot;</span>.<span class="ident">to_string</span>();
+  <span class="ident">rrc</span>.<span class="ident">url</span> <span class="op">=</span> <span class="string">&quot;https://bestia.dev/v1/richiesta/info&quot;</span>.<span class="ident">to_string</span>();
   <span class="ident">rrc</span>.<span class="ident">tipo_doc</span> <span class="op">=</span> <span class="string">&quot;&quot;</span>.<span class="ident">to_string</span>();
   <span class="ident">rrc</span>.<span class="ident">amazon_txt_disabled</span> <span class="op">=</span> <span class="string">&quot;w3-disabled&quot;</span>.<span class="ident">to_string</span>();
   <span class="ident">rrc</span>.<span class="ident">reqbody</span> <span class="op">=</span> <span class="macro">format</span><span class="macro">!</span>(
@@ -342,7 +342,7 @@
 <span class="comment">/*
 ///create reqbody for ricevute lista
 pub fn create_reqbody_ricevute_lista(rrc: &amp;mut RootRenderingComponent) {
-  rrc.url = &quot;http://34.87.17.103/v1/ricevute/lista&quot;.to_string();
+  rrc.url = &quot;https://bestia.dev/v1/ricevute/lista&quot;.to_string();
   rrc.tipo_doc = &quot;ricevute&quot;.to_string();
   rrc.amazon_txt_disabled = &quot;w3-disabled&quot;.to_string();
   rrc.reqbody = format!(
@@ -376,7 +376,7 @@ pub fn create_reqbody_ricevute_lista(rrc: &amp;mut RootRenderingComponent) {
 <span class="comment">/*
 ///create reqbody for prodotti lista
 pub fn create_reqbody_prodotti_lista(rrc: &amp;mut RootRenderingComponent) {
-  rrc.url = &quot;http://34.87.17.103/v1/prodotti/lista&quot;.to_string();
+  rrc.url = &quot;https://bestia.dev/v1/prodotti/lista&quot;.to_string();
   rrc.tipo_doc = &quot;prodotti&quot;.to_string();
   rrc.amazon_txt_disabled = &quot;w3-disabled&quot;.to_string();
   rrc.reqbody = format!(
@@ -404,7 +404,7 @@ pub fn create_reqbody_prodotti_lista(rrc: &amp;mut RootRenderingComponent) {
 
 <span class="doccomment">///create reqbody for ricevute nuovo</span>
 <span class="kw">pub</span> <span class="kw">fn</span> <span class="ident">create_reqbody_ricevute_nuovo</span>(<span class="ident">rrc</span>: <span class="kw-2">&amp;</span><span class="kw-2">mut</span> <span class="ident">RootRenderingComponent</span>) {
-  <span class="ident">rrc</span>.<span class="ident">url</span> <span class="op">=</span> <span class="string">&quot;http://34.87.17.103/v1/ricevute/nuovo&quot;</span>.<span class="ident">to_string</span>();
+  <span class="ident">rrc</span>.<span class="ident">url</span> <span class="op">=</span> <span class="string">&quot;https://bestia.dev/v1/ricevute/nuovo&quot;</span>.<span class="ident">to_string</span>();
   <span class="ident">rrc</span>.<span class="ident">tipo_doc</span> <span class="op">=</span> <span class="string">&quot;ricevute&quot;</span>.<span class="ident">to_string</span>();
   <span class="ident">rrc</span>.<span class="ident">amazon_txt_disabled</span> <span class="op">=</span> <span class="string">&quot;&quot;</span>.<span class="ident">to_string</span>();
   <span class="ident">rrc</span>.<span class="ident">reqbody</span> <span class="op">=</span> <span class="macro">format</span><span class="macro">!</span>(

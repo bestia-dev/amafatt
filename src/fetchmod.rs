@@ -1,7 +1,7 @@
 //! **fetchmod - isolate/encapsulate fetch api in a module because it is all async**  
-//region: lmake_readme insert "readme_fetchmod.md"
+// region: lmake_readme include "readme_fetchmod.md" //! A
+// endregion: lmake_readme include "readme_fetchmod.md" //! A
 //
-//endregion lmake_readme insert "readme_fetchmod.md"
 
 //region: use
 use crate::log1;

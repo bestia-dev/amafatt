@@ -1,9 +1,9 @@
-[comment]: # (lmake_readme remove start)
+[comment]: # (lmake_readme exclude start A)
 # amafatt
 
 A short description in Italian is in README_IT.md.
 
-[comment]: # (lmake_readme remove end)
+[comment]: # (lmake_readme exclude end A)
 
 ## Documentation
 Documentation generated from source code:  
@@ -82,12 +82,20 @@ All the requests will be now sent to https://bestia.dev/v1/.
 https://github.com/rustwasm/wasm-bindgen/tree/master/examples/fetch  
 https://api.FattureInCloud.it/v1/documentation/dist/#!/Richiesta_generica/jsonrequest  
 
-[comment]: # (lmake_readme remove start)
+[comment]: # (lmake_readme exclude start A)
 
 ## Complaints of an old man
 For a simple fetch api I had to jump over hoops that are not to underestimate.  
 JsValue, Promises, Futures, Closures, reference to functions, lifetimes,...  
 I probably did not mention them all. Feeling like an absolute beginner. Feeling young again.  
+
+## cargo crev reviews and advisory
+
+It is recommended to always use [cargo-crev](https://github.com/crev-dev/cargo-crev)  
+to verify the trustworthiness of each of your dependencies.  
+Please, spread this info.  
+On the web use this url to read crate reviews. Example:  
+<https://bestia.dev/cargo_crev_web/query/num-traits>  
 
 ## TODO
 - show errors to user. Now they show only on console F12.
@@ -107,4 +115,4 @@ I probably did not mention them all. Feeling like an absolute beginner. Feeling 
 2019-08-21 1.0.3 today-date  
 2019-09-09 version 19.9.9. no need for semver for non-library, version in docs
 
-[comment]: # (lmake_readme remove end)
+[comment]: # (lmake_readme exclude end A)

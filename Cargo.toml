@@ -9,6 +9,7 @@ readme = "README.md"
 license = "MIT"
 keywords = ["wasm","dodrio","virtual dom"]
 categories = ["amazon","fattureincloud"]
+publish = false
 
 [lib]
 crate-type = ["cdylib"]

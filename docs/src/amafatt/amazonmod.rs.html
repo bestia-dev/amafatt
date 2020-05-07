@@ -496,7 +496,7 @@
     <span class="ident">log1</span>(<span class="macro">format</span><span class="macro">!</span>(<span class="string">&quot;sku {} req {}&quot;</span>, <span class="ident">field_value</span>, <span class="ident">reqbody</span>).<span class="ident">as_str</span>());
 
     <span class="kw">let</span> <span class="ident">webrequest</span> <span class="op">=</span>
-        <span class="ident">reqbodymod</span>::<span class="ident">create_webrequest</span>(<span class="ident">reqbody</span>, <span class="string">&quot;http://34.87.17.103/v1/prodotti/lista&quot;</span>.<span class="ident">to_string</span>());
+        <span class="ident">reqbodymod</span>::<span class="ident">create_webrequest</span>(<span class="ident">reqbody</span>, <span class="string">&quot;https://bestia.dev/v1/prodotti/lista&quot;</span>.<span class="ident">to_string</span>());
     <span class="ident">fetchmod</span>::<span class="ident">fetch_response</span>(
         <span class="ident">vdom_weak</span>,
         <span class="kw-2">&amp;</span><span class="ident">webrequest</span>,

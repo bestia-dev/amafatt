@@ -1,6 +1,6 @@
 //! **amafatt - processes the data from Amazon txt file and send an api json request to FattureInCloud.it**  
 //
-//region: lmake_readme insert "readme_IT.md"
+// region: lmake_readme include "readme_IT.md" //! A
 //! # amafatt
 //!
 //! version: 19.9.10  
@@ -15,11 +15,10 @@
 //! La lingua di tutti i programmatori e l'Inglese e per questo ci sarà tanto inglese nella source code.  
 //! La source code e disponibile sul mio GitHub privato https://github.com/LucianoBestia/amafatt solo per i collaboratori.  
 //!
-
-//endregion: lmake_readme insert "readme_IT.md"
+// endregion: lmake_readme include "readme_IT.md" //! A
 //
 //
-//region: lmake_readme insert "readme.md"
+// region: lmake_readme include "readme.md" //! A
 //!
 //! ## Documentation
 //! Documentation generated from source code:  
@@ -99,7 +98,7 @@
 //! https://api.FattureInCloud.it/v1/documentation/dist/#!/Richiesta_generica/jsonrequest  
 //!
 
-//endregion: lmake_readme insert "readme.md"
+// endregion: lmake_readme include "readme.md" //! A
 //
 
 //region: Clippy
