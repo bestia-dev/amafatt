@@ -58,8 +58,8 @@ args = ["build", "--target", "web","--dev"]
     # backslash is the escape character for all other special characters.
     # and then another time I have to escape the backslash. So 4 backslash for one backslash.
     script = [
-        "rsync -avz --delete-after /home/luciano/rustprojects/amafatt/webfolder/ /home/luciano/rustprojects/googlecloud/var/www/html/amafatt/",
-        "rsync -e ssh -avz --delete-after /home/luciano/rustprojects/googlecloud/var/www/html/amafatt/ luciano_bestia@bestia.dev:/var/www/html/amafatt/",
+        "rsync -avz --delete-after /mnt/c/Users/Luciano/rustprojects/amafatt/webfolder/ /mnt/c/Users/Luciano/rustprojects/googlecloud/var/www/html/amafatt/",
+        "rsync -e ssh -avz --delete-after /mnt/c/Users/Luciano/rustprojects/googlecloud/var/www/html/amafatt/ luciano_bestia@bestia.dev:/var/www/html/amafatt/",
     ]
 
     [tasks.sshadd]
@@ -101,7 +101,7 @@ clear = true
 private = true
 description = "copy doc folder as docs (out of folder target), so it can be git comitted"
 script = [
-    "\\rsync -avz --delete-after ~/rustprojects/amafatt/target/doc/*  ~/rustprojects/amafatt/docs/"
+    "\\rsync -avz --delete-after /mnt/c/Users/Luciano/rustprojects/amafatt/target/doc/*  /mnt/c/Users/Luciano/rustprojects/amafatt/docs/"
 ]
 
 [tasks.lmake_version_from_date]
@@ -122,6 +122,6 @@ description = "copy wasm pkg to webfolder"
 clear = true
 private = true
 script = [
-    "\\rsync -avz --delete-after ~/rustprojects/amafatt/pkg/  ~/rustprojects/amafatt/webfolder/pkg/",
+    "\\rsync -avz --delete-after /mnt/c/Users/Luciano/rustprojects/amafatt/pkg/  /mnt/c/Users/Luciano/rustprojects/amafatt/webfolder/pkg/",
 ]
 
