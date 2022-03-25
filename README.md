@@ -1,5 +1,5 @@
 [comment]: # (lmake_readme exclude start A)
-# amafatt
+# amafatt (2019-09)
 
 A short description in Italian is in README_IT.md.
 
