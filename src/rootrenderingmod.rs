@@ -341,8 +341,8 @@ impl Render for RootRenderingComponent {
                     <div>
                         <h6 class="yellow">
                             {vec![text(bumpalo::format!(in bump, "Github repository: {}", "").into_bump_str(),)]}
-                            <a href= "https://github.com/LucianoBestia/amafatt" target="_blank">
-                                {vec![text(bumpalo::format!(in bump, "https://github.com/LucianoBestia/amafatt{}", "").into_bump_str(),)]}
+                            <a href= "https://github.com/bestia-dev/amafatt" target="_blank">
+                                {vec![text(bumpalo::format!(in bump, "https://github.com/bestia-dev/amafatt{}", "").into_bump_str(),)]}
                             </a>
                         </h6>
                     </div>

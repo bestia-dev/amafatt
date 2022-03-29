@@ -3,7 +3,7 @@
 # amafatt (2019-09)
 
 **amazon bills to fatture.it**  
-***version: 1.0  date: 2019-09-13 author: [dev_Bestia](https://bestia.dev) repository: [GitHub](https://github.com/LucianoBestia/amafatt)***  
+***version: 1.0  date: 2019-09-13 author: [bestia.dev](https://bestia.dev) repository: [GitHub](https://github.com/bestia-dev/amafatt)***  
 
 A short description in Italian is in README_IT.md.
 
@@ -12,7 +12,7 @@ A short description in Italian is in README_IT.md.
 ## Documentation
 
 Documentation generated from source code:  
-<https://lucianobestia.github.io/amafatt/index.html>
+<https://bestia-dev.github.io/amafatt/index.html>
 
 ## Rust, Wasm, Dodrio
 
@@ -54,7 +54,7 @@ Install it simply with `cargo install --force cargo-make`
 `cargo make release` - builds the release version and runs the server and the browser  
 The make script also lunches the `basic-http-server`and open the browser.  
 To copy the content of readme.md files into doc comments of *.rs files I created this utility:  
-<https://github.com/LucianoBestia/lmake_readme>  
+<https://github.com/bestia-dev/lmake_readme>  
 `cargo make doc` - prepare the doc comments and creates the docs folder  
 TODO: could make a flow to publish to GitHub or to google vm or a task for increment version numbers.  
 
