@@ -5,6 +5,7 @@ authors = ["bestia.dev"]
 edition = "2018"
 description="import amazon txt to FattureInCloud.it"
 repository = "https://github.com/bestia-dev/amafatt"
+homepage = "https://bestia.dev"
 readme = "README.md"
 license = "MIT"
 keywords = ["wasm","dodrio","virtual dom"]
