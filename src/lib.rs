@@ -8,12 +8,12 @@
 //! Max sa cosa vuole dalla applicazione ed io (Luciano) costruirò la app come prototipo.  
 //! Dopo si vedrà se saremmo contenti con il risultato e si andrà avanti.  
 //! ## FattureInCloud.it
-//! Ho creato un nuovo account per luciano.bestia@gmail.com dove si può sperimentare.  
+//! Ho creato un nuovo account per bestia.dev dove si può sperimentare.  
 //! Io e Max abbiamo accesso a questo account e possiamo collaborare.  
 //! La documentazione della API e qui:  
 //! https://api.FattureInCloud.it/v1/documentation/dist/#!/Richiesta_generica/jsonrequest  
 //! La lingua di tutti i programmatori e l'Inglese e per questo ci sarà tanto inglese nella source code.  
-//! La source code e disponibile sul mio GitHub privato https://github.com/LucianoBestia/amafatt solo per i collaboratori.  
+//! La source code e disponibile sul mio GitHub privato https://github.com/bestia-dev/amafatt solo per i collaboratori.  
 //!
 // endregion: lmake_readme include "readme_IT.md" //! A
 //
@@ -22,7 +22,7 @@
 //!
 //! ## Documentation
 //! Documentation generated from source code:  
-//! https://lucianobestia.github.io/amafatt/index.html
+//! https://bestia-dev.github.io/amafatt/index.html
 //!
 //! ## Rust, Wasm, Dodrio
 //! The programming language of this application is not important.  
@@ -58,7 +58,7 @@
 //! `cargo make release` - builds the release version and runs the server and the browser  
 //! The make script also lunches the `basic-http-server`and open the browser.  
 //! To copy the content of readme.md files into doc comments of *.rs files I created this utility:  
-//! https://github.com/LucianoBestia/lmake_readme  
+//! https://github.com/bestia-dev/lmake_readme  
 //! `cargo make doc` - prepare the doc comments and creates the docs folder  
 //! TODO: could make a flow to publish to GitHub or to google vm or a task for increment version numbers.  
 //! ## Workflow
