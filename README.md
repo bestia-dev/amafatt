@@ -5,7 +5,7 @@
 **amazon bills to fatture.it**  
 ***version: 1.0  date: 2019-09-13 author: [bestia.dev](https://bestia.dev) repository: [GitHub](https://github.com/bestia-dev/amafatt)***  
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbestia-dev%2Famafatt&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+![Hits](https://bestia.dev/webpage_hit_counter/get_svg_image/775315520)
 
 A short description in Italian is in README_IT.md.  
 
