@@ -1,6 +1,6 @@
 # Specific git config for the project
 
-# Declare files that will always have CRLF line endings on checkout.
+# Declare files that will always have LF line endings on checkout.
 *.rs text eol=lf
 *.toml text eol=lf
 *.md text eol=lf
@@ -10,3 +10,5 @@
 *.html text eol=lf
 *.js text eol=lf
 *.css text eol=lf
+
+
